@@ -1,10 +1,18 @@
 # repos_Dec16
 
+<<<<<<< HEAD
+##git remote add、git fetch
+remoteのリポジトリを追加して、リモートリポジトリの状態を取得する（作業環境には反映しない）
+=======
+#git init
+#現在のフォルダをリポジトリとする。
+
 #git remote add、git fetch
 #remoteのリポジトリを追加して、リモートリポジトリの状態を取得する（作業環境には反映しない）
+>>>>>>> git init記述追記
 
 
-#git clone
+##git clone
 既存のリポジトリの複製を作る
 
 
@@ -15,6 +23,9 @@
 
 ## git merge --no-ff
 ブランチを`merge`したときに、必ずマージコミットを作る。
+
+## git merge --ff-only
+ふたつのブランチが`fast-forward` の関係にないときは処理を行わない。
 
 
 ## git commit --amend
@@ -59,6 +70,7 @@ $ git checkout fix/42
  iはinteractiveのi。
  --interactiveでも同じ指定になる。
  インタラクティブにrebaseを行う。
+ どの程度インタラクティブなのかこの後実験してレポートします。
  
 ## git commit -a
  変更のあったファイルすべてをコミットする。対象となるファイルは過去に一度でもリポジトリの管理対象としたファイルのみ。
