@@ -61,8 +61,9 @@ $ git checkout fix/42
 ## git rebase -i
  iはinteractiveのi。
  --interactiveでも同じ指定になる。
- インタラクティブにrebaseを行う。
- どの程度インタラクティブなのかこの後実験してレポートします。
+ rebaseといっても普通のrebaseと異なり、他ブランチにrebaseするわけではなく、
+ ローカルのコミット履歴の編集をインタラクティブに行う。
+ 	
  
 ## git commit -a
  変更のあったファイルすべてをコミットする
