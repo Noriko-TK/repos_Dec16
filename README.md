@@ -1,5 +1,9 @@
 # repos_Dec16
 
+#git clone
+既存のリポジトリの複製を作る
+
+
 ## git merge
 ブランチのマージを行う。
 
@@ -39,7 +43,3 @@
 ```
 $ git branch fix/42
 $ git checkout fix/42
-```
-
-this is a test. 
-
