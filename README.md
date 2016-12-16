@@ -46,4 +46,9 @@
 $ git branch fix/42
 $ git checkout fix/42
 
+## git rebase -i
+ iはinteractiveのi。
+ --interactiveでも同じ指定になる。
+ インタラクティブにrebaseを行う。
+ 
 git commit -a //変更のあったファイルすべてをコミットする
