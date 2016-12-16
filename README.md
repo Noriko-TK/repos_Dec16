@@ -1,5 +1,8 @@
 # repos_Dec16
 
+## git merge
+ブランチのマージを行う。
+
 ## git commit --amend
 一旦コミットしてからちょっとした修正を入れた場合に、この修正も元のコミットに含めてしまいたいことがある
 (細かい修正が漏れていたのに、あとから気づいたような場合)
@@ -26,7 +29,7 @@
  nothing to commit, working directory clean
 
 ## git commit
-変更点をリポジトリに反映（事前にaddが必要）
+変更点をリポジトリーに反映（事前にaddが必要）
 
 ## git checkout -b fix/42
 ブランチの作成と新しいブランチへの切り替えを同時に行う。
