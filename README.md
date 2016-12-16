@@ -1,5 +1,9 @@
 # repos_Dec16
 
+#git remote add、git fetch
+#remoteのリポジトリを追加して、リモートリポジトリの状態を取得する（作業環境には反映しない）
+
+
 #git clone
 既存のリポジトリの複製を作る
 
@@ -42,5 +46,14 @@
 
 次のふたつのコマンドの実行と同じ。
 
+```
+$ git branch fix/42
+$ git checkout fix/42
+
+## git rebase -i
+ iはinteractiveのi。
+ --interactiveでも同じ指定になる。
+ インタラクティブにrebaseを行う。
+ 
 ## git branch fix/42	：コミットグラフにつけられる目印。fix/42のコミットへのポインタが作成される。
 
