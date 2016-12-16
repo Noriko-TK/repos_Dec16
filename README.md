@@ -7,3 +7,14 @@
 
 ## git commit
 変更点をremoteに反映（事前にaddが必要）
+
+## git checkout -b fix/42
+ブランチの作成と新しいブランチへの切り替えを同時に行う。
+
+次のふたつのコマンドの実行と同じ。
+
+```
+$ git branch fix/42
+$ git checkout fix/42
+```
+
