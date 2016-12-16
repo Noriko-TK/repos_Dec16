@@ -45,3 +45,5 @@
 ```
 $ git branch fix/42
 $ git checkout fix/42
+
+git commit -a //変更のあったファイルすべてをコミットする
