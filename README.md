@@ -26,7 +26,7 @@
  nothing to commit, working directory clean
 
 ## git commit
-変更点をremoteに反映（事前にaddが必要）
+変更点をリポジトリに反映（事前にaddが必要）
 
 ## git checkout -b fix/42
 ブランチの作成と新しいブランチへの切り替えを同時に行う。
