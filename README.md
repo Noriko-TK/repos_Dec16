@@ -74,3 +74,8 @@ $ git checkout fix/42
 ## git reset --hard master
 ローカルリポジトリをリモートのmaster に合わせる。
 
+## git cherry-pick
+他のブランチの任意のコミットを現在のブランチに適用します。
+
+使用方法
+git cherry-pick 82d796dbc484316fc0f6d9ad94d05027b1adbd2a
