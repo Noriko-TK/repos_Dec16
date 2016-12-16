@@ -60,4 +60,5 @@ $ git checkout fix/42
  --interactiveでも同じ指定になる。
  インタラクティブにrebaseを行う。
  
-git commit -a //変更のあったファイルすべてをコミットする
+## git commit -a
+ 変更のあったファイルすべてをコミットする
