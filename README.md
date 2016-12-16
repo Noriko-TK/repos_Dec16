@@ -1,10 +1,10 @@
 # repos_Dec16
 
-#git init
-#現在のフォルダをリポジトリとする。
+##git init
+現在のフォルダをリポジトリとする。
 
-#git remote add、git fetch
-#remoteのリポジトリを追加して、リモートリポジトリの状態を取得する（作業環境には反映しない）
+##git remote add、git fetch
+remoteのリポジトリを追加して、リモートリポジトリの状態を取得する（作業環境には反映しない）
 
 
 ##git clone
@@ -64,17 +64,25 @@ $ git checkout fix/42
 ## git rebase -i
  iはinteractiveのi。
  --interactiveでも同じ指定になる。
- インタラクティブにrebaseを行う。
- どの程度インタラクティブなのかこの後実験してレポートします。
+ rebaseといっても普通のrebaseと異なり、他ブランチにrebaseするわけではなく、
+ ローカルのコミット履歴の編集をインタラクティブに行う。
 
 ## git commit -a
  変更のあったファイルすべてをコミットする。対象となるファイルは過去に一度でもリポジトリの管理対象としたファイルのみ。
 
+## git reset --hard master
+ローカルリポジトリをリモートのmaster に合わせる。
 
 ## git branch fix/42
  コミットグラフにつけられる目印。fix/42のコミットへのポインタが作成される。
 
-
 ## git fetch
  リモートリポジトリの最新情報をローカルに追加する。
+
+## git cherry-pick
+他のブランチの任意のコミットを現在のブランチに適用します。
+
+使用方法
+git cherry-pick 82d796dbc484316fc0f6d9ad94d05027b1adbd2a
+
 
