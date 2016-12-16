@@ -1,7 +1,15 @@
 # repos_Dec16
 
+<<<<<<< HEAD
 ##git remote add、git fetch
 remoteのリポジトリを追加して、リモートリポジトリの状態を取得する（作業環境には反映しない）
+=======
+#git init
+#現在のフォルダをリポジトリとする。
+
+#git remote add、git fetch
+#remoteのリポジトリを追加して、リモートリポジトリの状態を取得する（作業環境には反映しない）
+>>>>>>> git init記述追記
 
 
 ##git clone
