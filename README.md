@@ -70,3 +70,7 @@ $ git checkout fix/42
  
 ## git commit -a
  変更のあったファイルすべてをコミットする
+
+## git reset --hard master
+ローカルリポジトリをリモートのmaster に合わせる。
+
